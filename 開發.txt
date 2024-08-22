@@ -1,0 +1,49 @@
+https://www.youtube.com/watch?v=LlYhPO8Ti2U
+
+
+1.建立資料庫
+CREATE DATABASE MyWorldDB
+
+2.建立資料表
+CREATE TABLE Beach(
+Id int IDENTITY(1,1) NOT NULL,
+BeachName varchar(200),
+Place varchar(200),
+ImageUrl varchar(1000)
+CONSTRAINT PK_Beach_Id PRIMARY KEY(Id)
+)
+
+npm init vue@latest
+
+dotnet new webapi -controllers -n Dot7.API.CRUD
+
+dotnet add package Microsoft.EntityFrameworkCore --version 9.0.0-preview.7.24405.3
+dotnet add package Microsoft.EntityFrameworkCore.SqlServer --version 9.0.0-preview.7.24405.3
+
+
+dotnet watch run
+
+vue3-crud-sample> npm i axios
+
+
+//program.cs
+builder.Services.AddCors(options => {
+    options.AddPolicy("Cors", p => {
+        p.AllowAnyOrigin()
+        .AllowAnyHeader()
+        .AllowAnyMethod();
+    });
+});
+
+app.UseCors("Cors");
+
+
+<form @submit.prevent="addBeach">
+
+
+https://picsum.photos/id/237/300/200
+
+const myModal = new bootstrap.Modal(document.getElementById('myModal'), options)
+// or
+const myModalAlternative = new bootstrap.Modal('#myModal', options)
+
