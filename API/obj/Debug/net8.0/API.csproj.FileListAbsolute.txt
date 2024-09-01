@@ -80,3 +80,4 @@ C:\codes\Vue3\dotnet7_vue3\api\obj\Debug\net8.0\refint\API.dll
 C:\codes\Vue3\dotnet7_vue3\api\obj\Debug\net8.0\API.pdb
 C:\codes\Vue3\dotnet7_vue3\api\obj\Debug\net8.0\API.genruntimeconfig.cache
 C:\codes\Vue3\dotnet7_vue3\api\obj\Debug\net8.0\ref\API.dll
+C:\codes\Vue3\dotnet7_vue3\api\obj\Debug\net8.0\API.sourcelink.json
