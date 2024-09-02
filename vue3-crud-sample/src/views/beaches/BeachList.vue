@@ -25,7 +25,8 @@ const openDeleteModal = (id) => {
 const confirmDelete = () => {
     axios.delete(`http://localhost:5247/Beach/${deleteItemId.value}`)
     .then(()=> {
-        beachCollection.value = beachCollection.value.filter(_ => _.id !== deleteItemId.value);
+        beachCollection.value = beachCollection.value.filter(
+            (_) => _.id !== deleteItemId.value);
         deleteModalInstance.hide();
     })
 
